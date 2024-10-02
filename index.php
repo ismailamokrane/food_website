@@ -1,10 +1,22 @@
-<?php
-    // Inclure le header
-    include 'header.php';
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+</head>
+<body>
 
-    // Inclure le contenu principal (body)
-    include 'body.php';
+    <?php
+        // header
+        include 'header.php';
 
-    // Inclure le footer
-    include 'footer.php';
-?>
+        // body
+        include 'body.php';
+
+        // footer
+        include 'footer.php';
+    ?>
+
+</body>
+</html>
